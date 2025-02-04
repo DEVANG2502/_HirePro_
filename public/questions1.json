@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism is the ability of an object to take on many forms.",
+      "remarks": "It is a key concept in OOP."
+    },
+    {
+      "question": "Explain the concept of inheritance.",
+      "answer": "Inheritance is the mechanism in OOP that allows one class to inherit the properties and methods of another.",
+      "remarks": "It's used to promote code reusability."
+    }
+  ]
+}

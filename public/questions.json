@@ -1,0 +1,522 @@
+{
+  "SQL": {
+    "questions": [
+      {
+        "question": "What is the purpose of the JOIN clause in SQL?",
+        "options": [
+          "To combine rows from two or more tables based on a related column",
+          "To filter records",
+          "To aggregate data",
+          "To sort the results"
+        ],
+        "answer": "To combine rows from two or more tables based on a related column"
+      },
+      {
+        "question": "Which SQL statement is used to delete data from a database?",
+        "options": [
+          "REMOVE",
+          "DELETE",
+          "DROP",
+          "TRUNCATE"
+        ],
+        "answer": "DELETE"
+      },
+      {
+        "question": "Which of the following statements will return the unique values from a column?",
+        "options": [
+          "SELECT DISTINCT",
+          "SELECT UNIQUE",
+          "SELECT DIFFERENT",
+          "SELECT ONLY"
+        ],
+        "answer": "SELECT DISTINCT"
+      },
+      {
+        "question": "What will the following SQL statement return: SELECT COUNT(*) FROM table_name?",
+        "options": [
+          "Total number of rows in the table",
+          "Total number of columns in the table",
+          "Total number of unique values in the table",
+          "Total number of null values in the table"
+        ],
+        "answer": "Total number of rows in the table"
+      },
+      {
+        "question": "Which SQL function is used to calculate the average value?",
+        "options": [
+          "AVG()",
+          "SUM()",
+          "COUNT()",
+          "MEAN()"
+        ],
+        "answer": "AVG()"
+      },
+      {
+        "question": "What is a primary key?",
+        "options": [
+          "A unique identifier for a record in a table",
+          "A key used for indexing",
+          "A type of foreign key",
+          "A field that allows null values"
+        ],
+        "answer": "A unique identifier for a record in a table"
+      },
+      {
+        "question": "What does the GROUP BY clause do?",
+        "options": [
+          "Groups rows that have the same values in specified columns",
+          "Sorts the result set",
+          "Filters records",
+          "None of the above"
+        ],
+        "answer": "Groups rows that have the same values in specified columns"
+      },
+      {
+        "question": "Which command is used to create a new database?",
+        "options": [
+          "CREATE DATABASE",
+          "NEW DATABASE",
+          "ADD DATABASE",
+          "MAKE DATABASE"
+        ],
+        "answer": "CREATE DATABASE"
+      },
+      {
+        "question": "What is the difference between UNION and UNION ALL?",
+        "options": [
+          "UNION removes duplicate records, UNION ALL retains them",
+          "UNION retains duplicate records, UNION ALL removes them",
+          "Both are the same",
+          "UNION is used for joins, UNION ALL is used for subqueries"
+        ],
+        "answer": "UNION removes duplicate records, UNION ALL retains them"
+      },
+      {
+        "question": "Which of the following is used to set the access level of a database?",
+        "options": [
+          "GRANT",
+          "SET",
+          "ACCESS",
+          "ALLOW"
+        ],
+        "answer": "GRANT"
+      }
+    ]
+  },
+  "DBMS": {
+    "questions": [
+      {
+        "question": "What does DBMS stand for?",
+        "options": [
+          "Database Management System",
+          "Data Base Management System",
+          "Database Management Software",
+          "Data Base Management Software"
+        ],
+        "answer": "Database Management System"
+      },
+      {
+        "question": "Which of the following is a type of DBMS?",
+        "options": [
+          "Hierarchical",
+          "Network",
+          "Relational",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "question": "What is normalization?",
+        "options": [
+          "Organizing data to reduce redundancy",
+          "A way to back up data",
+          "Data compression technique",
+          "None of the above"
+        ],
+        "answer": "Organizing data to reduce redundancy"
+      },
+      {
+        "question": "What does ACID stand for?",
+        "options": [
+          "Atomicity, Consistency, Isolation, Durability",
+          "Accountability, Consistency, Isolation, Durability",
+          "Atomicity, Consistency, Isolation, Data Integrity",
+          "None of the above"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+      },
+      {
+        "question": "What is a foreign key?",
+        "options": [
+          "A primary key from another table",
+          "A unique identifier for a record",
+          "A key that allows null values",
+          "None of the above"
+        ],
+        "answer": "A primary key from another table"
+      },
+      {
+        "question": "Which of the following is a characteristic of a relational DBMS?",
+        "options": [
+          "Data is stored in tables",
+          "Data is stored in files",
+          "Data is stored in hierarchies",
+          "Data is stored as objects"
+        ],
+        "answer": "Data is stored in tables"
+      },
+      {
+        "question": "What is denormalization?",
+        "options": [
+          "The process of combining tables to improve performance",
+          "The process of splitting tables to reduce redundancy",
+          "The process of backing up data",
+          "None of the above"
+        ],
+        "answer": "The process of combining tables to improve performance"
+      },
+      {
+        "question": "What is a data warehouse?",
+        "options": [
+          "A system used for reporting and data analysis",
+          "A place to store backup data",
+          "A type of database",
+          "None of the above"
+        ],
+        "answer": "A system used for reporting and data analysis"
+      },
+      {
+        "question": "Which type of DBMS uses a tree structure for data storage?",
+        "options": [
+          "Hierarchical DBMS",
+          "Relational DBMS",
+          "Network DBMS",
+          "Object-oriented DBMS"
+        ],
+        "answer": "Hierarchical DBMS"
+      },
+      {
+        "question": "What is the purpose of an index in a database?",
+        "options": [
+          "To speed up data retrieval",
+          "To organize data",
+          "To enforce data integrity",
+          "None of the above"
+        ],
+        "answer": "To speed up data retrieval"
+      }
+    ]
+  },
+  "OOPs": {
+    "questions": [
+      {
+        "question": "What does OOP stand for?",
+        "options": [
+          "Object-Oriented Programming",
+          "Object-Oriented Process",
+          "Object-Oriented Protocol",
+          "Object-Oriented Product"
+        ],
+        "answer": "Object-Oriented Programming"
+      },
+      {
+        "question": "Which of the following is not a core concept of OOP?",
+        "options": [
+          "Encapsulation",
+          "Inheritance",
+          "Polymorphism",
+          "Compilation"
+        ],
+        "answer": "Compilation"
+      },
+      {
+        "question": "What is encapsulation?",
+        "options": [
+          "The bundling of data and methods that operate on that data",
+          "The ability to create new classes based on existing classes",
+          "The ability to take on many forms",
+          "None of the above"
+        ],
+        "answer": "The bundling of data and methods that operate on that data"
+      },
+      {
+        "question": "What is polymorphism?",
+        "options": [
+          "The ability to present the same interface for different data types",
+          "The process of hiding the internal state of an object",
+          "The ability to derive new classes from existing ones",
+          "None of the above"
+        ],
+        "answer": "The ability to present the same interface for different data types"
+      },
+      {
+        "question": "Which of the following keywords is used to inherit a class in C++?",
+        "options": [
+          "extends",
+          "inherits",
+          "extends from",
+          "public"
+        ],
+        "answer": "public"
+      },
+      {
+        "question": "What is an abstract class?",
+        "options": [
+          "A class that cannot be instantiated",
+          "A class that can be instantiated",
+          "A class that has no methods",
+          "None of the above"
+        ],
+        "answer": "A class that cannot be instantiated"
+      },
+      {
+        "question": "What is method overriding?",
+        "options": [
+          "Defining a method in a derived class with the same name and signature as in the base class",
+          "Defining multiple methods in a class with the same name but different parameters",
+          "Changing the access modifier of a method",
+          "None of the above"
+        ],
+        "answer": "Defining a method in a derived class with the same name and signature as in the base class"
+      },
+      {
+        "question": "What is the purpose of a constructor?",
+        "options": [
+          "To initialize objects",
+          "To destroy objects",
+          "To define methods",
+          "None of the above"
+        ],
+        "answer": "To initialize objects"
+      },
+      {
+        "question": "What is the difference between an interface and an abstract class?",
+        "options": [
+          "An interface cannot have any implementation, while an abstract class can have some",
+          "An interface can have a constructor, while an abstract class cannot",
+          "Both are the same",
+          "An abstract class cannot have methods, while an interface can"
+        ],
+        "answer": "An interface cannot have any implementation, while an abstract class can have some"
+      },
+      {
+        "question": "Which of the following is a benefit of using OOP?",
+        "options": [
+          "Code reusability",
+          "Better data security",
+          "Improved performance",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      }
+    ]
+  },
+  "Data Structures": {
+    "questions": [
+      {
+        "question": "What is a stack?",
+        "options": [
+          "A linear data structure that follows the Last In First Out (LIFO) principle",
+          "A linear data structure that follows the First In First Out (FIFO) principle",
+          "A non-linear data structure",
+          "None of the above"
+        ],
+        "answer": "A linear data structure that follows the Last In First Out (LIFO) principle"
+      },
+      {
+        "question": "What is a queue?",
+        "options": [
+          "A linear data structure that follows the First In First Out (FIFO) principle",
+          "A linear data structure that follows the Last In First Out (LIFO) principle",
+          "A non-linear data structure",
+          "None of the above"
+        ],
+        "answer": "A linear data structure that follows the First In First Out (FIFO) principle"
+      },
+      {
+        "question": "Which of the following is not a type of linked list?",
+        "options": [
+          "Singly Linked List",
+          "Doubly Linked List",
+          "Circular Linked List",
+          "Array Linked List"
+        ],
+        "answer": "Array Linked List"
+      },
+      {
+        "question": "What is a binary tree?",
+        "options": [
+          "A tree data structure where each node has at most two children",
+          "A tree data structure where each node has more than two children",
+          "A linear data structure",
+          "None of the above"
+        ],
+        "answer": "A tree data structure where each node has at most two children"
+      },
+      {
+        "question": "What is the time complexity of searching in a balanced binary search tree?",
+        "options": [
+          "O(log n)",
+          "O(n)",
+          "O(n log n)",
+          "O(1)"
+        ],
+        "answer": "O(log n)"
+      },
+      {
+        "question": "What is the main advantage of using a hash table?",
+        "options": [
+          "Fast access time",
+          "Memory efficiency",
+          "Simplicity",
+          "None of the above"
+        ],
+        "answer": "Fast access time"
+      },
+      {
+        "question": "What is a graph?",
+        "options": [
+          "A collection of nodes and edges",
+          "A collection of arrays",
+          "A type of tree structure",
+          "None of the above"
+        ],
+        "answer": "A collection of nodes and edges"
+      },
+      {
+        "question": "Which of the following sorting algorithms has the best average-case time complexity?",
+        "options": [
+          "Quick Sort",
+          "Bubble Sort",
+          "Selection Sort",
+          "Insertion Sort"
+        ],
+        "answer": "Quick Sort"
+      },
+      {
+        "question": "What is a deque?",
+        "options": [
+          "Double-ended queue",
+          "Double-ended stack",
+          "Dynamic queue",
+          "Dynamic array"
+        ],
+        "answer": "Double-ended queue"
+      },
+      {
+        "question": "What is the space complexity of an array?",
+        "options": [
+          "O(1)",
+          "O(n)",
+          "O(log n)",
+          "O(n log n)"
+        ],
+        "answer": "O(n)"
+      }
+    ]
+  },
+  "Networking": {
+    "questions": [
+      {
+        "question": "What does TCP stand for?",
+        "options": [
+          "Transmission Control Protocol",
+          "Transfer Control Protocol",
+          "Transmission Communication Protocol",
+          "None of the above"
+        ],
+        "answer": "Transmission Control Protocol"
+      },
+      {
+        "question": "Which of the following is a network protocol?",
+        "options": [
+          "HTTP",
+          "FTP",
+          "TCP/IP",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "question": "What is the function of a router?",
+        "options": [
+          "To connect different networks and route packets of data",
+          "To connect devices within a network",
+          "To filter data",
+          "None of the above"
+        ],
+        "answer": "To connect different networks and route packets of data"
+      },
+      {
+        "question": "What is an IP address?",
+        "options": [
+          "A unique identifier for a device on a network",
+          "A type of data packet",
+          "A network protocol",
+          "None of the above"
+        ],
+        "answer": "A unique identifier for a device on a network"
+      },
+      {
+        "question": "What does DNS stand for?",
+        "options": [
+          "Domain Name System",
+          "Data Name System",
+          "Dynamic Network Service",
+          "None of the above"
+        ],
+        "answer": "Domain Name System"
+      },
+      {
+        "question": "What is a subnet?",
+        "options": [
+          "A logical subdivision of an IP network",
+          "A physical network",
+          "A type of router",
+          "None of the above"
+        ],
+        "answer": "A logical subdivision of an IP network"
+      },
+      {
+        "question": "Which layer of the OSI model does TCP operate on?",
+        "options": [
+          "Transport layer",
+          "Network layer",
+          "Data link layer",
+          "Application layer"
+        ],
+        "answer": "Transport layer"
+      },
+      {
+        "question": "What is the purpose of a firewall?",
+        "options": [
+          "To protect a network from unauthorized access",
+          "To connect devices within a network",
+          "To monitor traffic",
+          "None of the above"
+        ],
+        "answer": "To protect a network from unauthorized access"
+      },
+      {
+        "question": "What is the main function of the transport layer in the OSI model?",
+        "options": [
+          "To provide reliable data transfer between hosts",
+          "To route packets of data",
+          "To establish sessions",
+          "None of the above"
+        ],
+        "answer": "To provide reliable data transfer between hosts"
+      },
+      {
+        "question": "What is an SSL certificate used for?",
+        "options": [
+          "To secure data transmission over the internet",
+          "To identify the sender of an email",
+          "To compress data",
+          "None of the above"
+        ],
+        "answer": "To secure data transmission over the internet"
+      }
+    ]
+  }
+}
